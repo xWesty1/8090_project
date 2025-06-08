@@ -18,4 +18,8 @@
 # TODO: Replace this with your actual implementation
 echo "TODO: Implement your reimbursement calculation here"
 echo "Input: $1 days, $2 miles, \$$3 receipts"
+<<<<<<< HEAD
 echo "Output should be a single number (the reimbursement amount)" 
+=======
+echo "Output should be a single number (the reimbursement amount)" 
+>>>>>>> 1f0bd29bcce8e279602380130ef73924d2c83951

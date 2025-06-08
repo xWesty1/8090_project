@@ -205,4 +205,8 @@ echo "  1. Fix any script errors shown above"
 echo "  2. Ensure your run.sh outputs only a number"
 echo "  3. Analyze the patterns in the interviews and public cases"
 echo "  4. Test edge cases around trip length and receipt amounts"
+<<<<<<< HEAD
 echo "  5. Submit your solution via the Google Form when ready!" 
+=======
+echo "  5. Submit your solution via the Google Form when ready!" 
+>>>>>>> 1f0bd29bcce8e279602380130ef73924d2c83951

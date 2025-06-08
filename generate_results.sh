@@ -102,4 +102,8 @@ echo "  Line 1: Result for private_cases.json[0]"
 echo "  Line 2: Result for private_cases.json[1]" 
 echo "  Line 3: Result for private_cases.json[2]"
 echo "  ..."
+<<<<<<< HEAD
 echo "  Line N: Result for private_cases.json[N-1]" 
+=======
+echo "  Line N: Result for private_cases.json[N-1]" 
+>>>>>>> 1f0bd29bcce8e279602380130ef73924d2c83951

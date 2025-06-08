@@ -514,4 +514,8 @@ Could be that it builds a profile of each user and adjusts accordingly. Could be
 
 **TPM:** That might be very useful. Thank you.
 
+<<<<<<< HEAD
 **Kevin:** No problem! And if you want to see my spreadsheets, just let me know. I've got pivot tables that'll blow your mind. 
+=======
+**Kevin:** No problem! And if you want to see my spreadsheets, just let me know. I've got pivot tables that'll blow your mind. 
+>>>>>>> 1f0bd29bcce8e279602380130ef73924d2c83951
