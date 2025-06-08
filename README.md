@@ -3,7 +3,7 @@
 
 This repository contains an XGBoost-based machine learning solution for predicting travel reimbursement amounts based on trip duration, miles traveled, and receipts.
 
-## 🚀 Performance
+## 🚀 Public cases Performance
 
 - **Average Error**: $19.72
 - **Validation MAE**: $64.42
