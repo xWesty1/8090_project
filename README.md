@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Reimbursement Calculator - XGBoost
 
 This repository contains an XGBoost-based machine learning solution for predicting travel reimbursement amounts based on trip duration, miles traveled, and receipts.
