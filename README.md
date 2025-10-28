@@ -1,9 +1,9 @@
 <<<<<<< HEAD
-# Reimbursement Calculator - XGBoost Solution
+# Reimbursement Calculator - XGBoost
 
 This repository contains an XGBoost-based machine learning solution for predicting travel reimbursement amounts based on trip duration, miles traveled, and receipts.
 
-## 🚀 Public cases Performance
+## Public cases
 
 - **Average Error**: $19.72
 - **Validation MAE**: $64.42
@@ -11,7 +11,7 @@ This repository contains an XGBoost-based machine learning solution for predicti
 - **Close Matches** (±$1): 68/1000 (6.8%)
 - **Score**: 2071.20 (lower is better)
 
-## 📁 Project Structure
+## Project Structure
 
 ### Core Files
 - `model.py` - Main XGBoost model implementation
@@ -33,7 +33,7 @@ This repository contains an XGBoost-based machine learning solution for predicti
 - `INTERVIEWS.md` - Interview transcripts and insights
 - `README.md` - This file
 
-## 🛠 Usage
+## Usage
 
 ### Quick Start
 ```bash
@@ -55,8 +55,6 @@ from model import reimbursement
 amount = reimbursement(days=5, miles=850, receipts=750.50)
 print(f"Reimbursement: ${amount:.2f}")
 ```
-
-## 🧠 Machine Learning Approach
 
 ### XGBoost Features
 The model uses 29 engineered features including:
@@ -83,7 +81,7 @@ params = {
 }
 ```
 
-## 📊 Model Performance
+## Model Performance
 
 ### Key Improvements
 - **Speed**: Evaluation completes in seconds (vs. minutes with ensemble)
@@ -96,29 +94,14 @@ The model still struggles with some extreme cases:
 - Long trips (10+ days) with unusual spending patterns
 - Cases with receipt amounts ending in .49 or .99 (legacy system bug)
 
-## 🔧 Requirements
+## Requirements
 
 ```bash
 pip install xgboost scikit-learn numpy pandas
 ```
-
-## 📈 Development History
-
-1. **Rule-based approach** - Manual implementation of business rules
-2. **Parameter optimization** - Grid search for optimal coefficients  
-3. **Ensemble methods** - Random Forest + Gradient Boosting + SVR
-4. **XGBoost optimization** - Single powerful model with feature engineering
-
-## 🎯 Future Improvements
-
-- Hyperparameter tuning with Optuna or similar
-- Additional feature engineering for edge cases
-- Ensemble with multiple XGBoost models
-- Analysis of remaining high-error cases for pattern discovery
-
 ---
 
-**Note**: This solution achieves significant accuracy improvements through machine learning while maintaining fast evaluation times suitable for production use.
+**Note**: Below are the original instructions for the challenge
 =======
 # Top Coder Challenge: Black Box Legacy Reimbursement System
 
